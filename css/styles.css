@@ -1,0 +1,207 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: black;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ff4c68;
+}
+
+/* Sections */
+
+.peach-colored-section {
+  background-color: #ef8172;
+  position: relative;
+}
+
+.pink-color {
+  background-color: #ff4c68;
+}
+
+.colored-section {
+
+}
+
+.white-section {
+  color: #fff;
+}
+
+/* Navbar + iPhone section */
+
+.navbar {
+  padding-bottom: 10%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  z-index: 0;
+  position: relative;
+  height: 650px;
+}
+
+.Top-offer-text {
+  font-weight: 900;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 60px 15px;
+}
+
+/* Iphone Title Image */
+
+.title-image {
+  transform: rotate(0.08turn);
+  position: relative;
+  width: 75%;
+  z-index: -1;
+}
+
+/* Features section  */
+
+.icons-middle {
+  color: #ef8172;
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+}
+
+.icons-middle:hover {
+  color: #ff4c68;
+}
+
+/* Smaller devices layout adjustments */
+
+@media (max-width: 1020px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 60px;
+  }
+
+  #title {
+    /* text-align: center; */
+  }
+
+  .container-fluid {
+    height: 1100px;
+  }
+
+}
+
+/* Testimonials section */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.intro-plans {
+  padding-bottom: 30px;
+}
+
+/* CTA Section */
+
+.bottom-section {
+  margin: auto 15%;
+  font-style: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/* Social section */
+
+.social {
+  margin: 20px 20px 30px;
+}
+
+#title {
+  font-family: "Montserrat";
+  text-align: left;
+  /* overflow: hidden; */
+  /* Upper line was used to crop the iPhone image before using z-index technique */
+}
+
+#navbarScroll {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#features {
+  z-index: 0;
+  position: relative;
+  background-color: #fff;
+}
+
+/* Testimonials */
+
+#press {
+  padding: 3%;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 70px 100px 100px;
+    position: relative;
+}
+
+/* CTA Section */
+
+/* Footer */
+
+#footer {
+  margin: 80px auto auto auto;
+}
